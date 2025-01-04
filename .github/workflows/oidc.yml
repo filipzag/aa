@@ -1,8 +1,8 @@
 name: Test workflow
-  on:
-    push:
-      branches:
-        - main
+on:
+  push:
+    branches:
+      - main
 # You can specify other branches if needed
 permissions:
   id-token: write # Required to request the OIDC token
